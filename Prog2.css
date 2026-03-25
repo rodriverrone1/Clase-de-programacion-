@@ -1,0 +1,31 @@
+.logo{text-align: center;}
+
+.menu {background-size: cover;
+background-position: right;
+width: 100%;
+display: flex;
+justify-content: flex-end;  }
+
+article{font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+text-align: center;}
+
+h1 {text-align: center;}
+
+nav ul{background-color: green;}
+
+.container-section{width: 200px;
+background-color: rgb(255, 255, 255);
+border:5px ;}
+
+.bandera{width: 100px;
+background-color:blue ;
+border: 5px;}
+
+section{background-color: red;
+border: 10px;
+width: 300px;}
+
+a{color: black;}
+
+footer {text-align: center;}
