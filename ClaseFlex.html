@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felx</title>
+
+    <link rel="stylesheet" href="claseflex.css">
+
+    <style>
+        * { /* Sanitizacion de estilos */
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .form-container {
+            display: flex; /* */
+            height: 100vh;
+            justify-content: center; /*alineacion horizontal */
+            align-items:center; /* alineacion vertical */
+        }
+        .login {
+            display: flex;
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="" class="login">
+            <h1 class="login-title">Iniciar Sesion</h1>
+
+         <label for="" class="login-label"> Usuario </label>
+            <input type="email" class="login-user" placeholder="Nombre de Usuario">
+
+         <label for="" class="login-label"> Contraseña </label>
+         <input type="password" class="login-password" placeholder="****************">
+
+            <button type="submit" class="login-button">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>

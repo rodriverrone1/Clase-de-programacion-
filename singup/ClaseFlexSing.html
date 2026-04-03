@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felx</title>
+
+    <link rel="stylesheet" href="claseflexSing.css">
+
+    <style>
+        * { /* Sanitizacion de estilos */
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .form-container {
+            display: flex; /* */
+            height: 100vh;
+            justify-content: center; /*alineacion horizontal */
+            align-items:center; /* alineacion vertical */
+        }
+        .singup {
+            display: flex;
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="" class="singup">
+            <h1 class="singup-title">Iniciar Sesion</h1>
+
+         <label for="" class="singup-label"> Mail </label>
+            <input type="email" class="singup-user" placeholder="Nombre de Usuario">
+
+         <label for="" class="singup-label"> Contraseña </label>
+            <input type="password" class="singup-password" placeholder="****************">
+
+         <label for="" class="singup-label"> Confirma Contraseña </label>
+            <input type="password" class="singup-password" placeholder="****************">
+
+        <label for="" class="singup-label">Fecha de Nacimiento</label>
+            <input type="date" class="singup-date" placeholder="DD/MM/YYYY">
+
+            <button type="submit" class="singup-button">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
